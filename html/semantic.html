@@ -4,8 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        header{
+            border: 1px solid black;
+            text-align: center;
+            background-color: aqua;
+        }
+        nav{
+            border: 1px solid black;
+            height: 50px;
+            text-align: center;
+            line-height: 40px;
+            word-spacing: 150px;
+            background-color: cadetblue;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        main{
+            border: 2px solid black;
+            display: flex;
+            height: 100vh;
+        }
+        main > section{
+            border: 1px solid red;
+        }
+        #left-side{
+            width: 30%;
+        }
+        #right-side{
+            width: 70%;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <h1>Times Of India</h1>
+    </header>
+
+    <nav>
+        Home
+        crime
+        sports
+        politics
+        wheather
+        cinema
+    </nav>
+
+    <main>
+        <section id="left-side">
+            <aside>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium officia, rem dolor eius explicabo mollitia, eaque at laboriosam iure architecto necessitatibus! In dolores odit autem.
+            </aside>
+        </section>
+
+        <section id="right-side">
+            <article>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam ullam molestias neque ab ratione cum fugiat, saepe hic eius quae earum culpa corrupti aperiam consequatur?
+            </article>
+            <article>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore ipsum quia harum culpa ab, alias ratione nobis tempore. Animi odit non vero. Sapiente, odit minus.
+            </article>
+        </section>
+    </main>
 </body>
 </html>
