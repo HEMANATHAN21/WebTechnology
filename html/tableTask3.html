@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #table-1{
+        /* border: 1px solid black; */
+        height: 50vh;
+        width: 50%;
+        
+    }
+    #table-2{
+        margin-left: 18%;
+    }
+    td,th{
+       border: 1px solid black;
+       padding: 10px;
+    }
+    table,td,th{
+        border-collapse: separate;
+    }
+    td{
+        /* text-align: center; */
+    }
+    </style>
+</head>
+<body>
+    <table id="table-1">
+        <tr>
+            <th>This is paragraph about me <br> This is anoyher paragraph about me</th>
+            <th> Random values
+                <table id="table-2">
+                    <tr>
+                        <th>Doe</th>
+                        <th>Play</th>
+                    </tr>
+                    <tr>
+                        <td>Bob</td>
+                        <td>Sam</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">contact me for details</td>
+                        <!-- <td></td> -->
+                    </tr>
+                </table>
+            </th>
+        </tr>
+        <tr>
+            <td>free software
+                <ol>
+                    <li>Linux</li>
+                    <li>Apache</li>
+                    <li>Mysql</li>
+                    <li>PHP</li>
+                </ol>
+            </td>
+            <td>HELLO</td>
+        </tr>
+    </table>
+</body>
+</html>
