@@ -6,64 +6,67 @@
     <title>Form</title>
 </head>
 <body>
-    <form action="" method="">
-        <label for="fname">First Name : </label>
-        <input type="text" name="first-name" id="fname">
-        <br><br>
-
-        <label for="lname">Last Name : </label>
-        <input type="text" name="last-name" id="lname">
-        <br><br>
-
-        <label for="age">Age : </label>
-        <input type="number" name="user-age" id="age">
-        <br><br>
-
-        <label for="gender">Gender : </label>
-        <input type="radio" name="gender" id="male" value="male">Male
-        <input type="radio" name="gender" id="female" value="female">Female
-        <input type="radio" name="gender" id="others">Others
-        <br><br>
-
-        <label for="dob">Date Of Birth</label>
-        <input type="date" name="user-dob" id="dob">
-        <br><br>
-
-        <label for="qualification1">Qualification</label>
-        <input type="checkbox" name="user-qualification1" id="qualification1" value="mba">MBA
-        <input type="checkbox" name="user-qualification2" id="qualification2" value="bsc">Bsc
-        <input type="checkbox" name="user-qualification3" id="qualification3" value="others">Others
-        <br><br>
-
-        <label for="choosecourse">Choose Course</label>
-        <select name="user-choiceofcourse" id="choosecourse">
-            <option value="select">----Select----</option>
-            <option value="webtech">WebTech</option>
-            <option value="java">Java</option>
-            <option value="sql">Sql</option>
-        </select>
-        <br><br>
-
-        <label for="mobile">Mobile No : </label>
-        <input type="tel" name="user-mobile" id="mobile">
-        <br><br>
-
-        <label for="email">Email Id : </label>
-        <input type="email" name="user-email" id="email">
-        <br><br>
-
-        <label for="resume">Choose File</label>
-        <input type="file" name="user-resume" id="resume">
-        <br><br>
-
-        <label for="address">Address : </label>
-        <br>
-        <textarea name="user-address" id="address" cols="30" rows="10"></textarea>
-        <br><br>
-
-        <input type="submit">
-        <input type="reset">
-
-    </form>
+    <fieldset>
+        <legend><h1>Student Details</h1></legend>
+        <form action="" method="">
+            <label for="fname">First Name : </label>
+            <input type="text" name="first-name" id="fname">
+            <br><br>
+    
+            <label for="lname">Last Name : </label>
+            <input type="text" name="last-name" id="lname">
+            <br><br>
+    
+            <label for="age">Age : </label>
+            <input type="number" name="user-age" id="age">
+            <br><br>
+    
+            <label for="gender">Gender : </label>
+            <input type="radio" name="gender" id="male" value="male">Male
+            <input type="radio" name="gender" id="female" value="female">Female
+            <input type="radio" name="gender" id="others">Others
+            <br><br>
+    
+            <label for="dob">Date Of Birth</label>
+            <input type="date" name="user-dob" id="dob">
+            <br><br>
+    
+            <label for="qualification1">Qualification</label>
+            <input type="checkbox" name="user-qualification1" id="qualification1" value="mba">MBA
+            <input type="checkbox" name="user-qualification2" id="qualification2" value="bsc">Bsc
+            <input type="checkbox" name="user-qualification3" id="qualification3" value="others">Others
+            <br><br>
+    
+            <label for="choosecourse">Choose Course</label>
+            <select name="user-choiceofcourse" id="choosecourse">
+                <option value="select">----Select----</option>
+                <option value="webtech">WebTech</option>
+                <option value="java">Java</option>
+                <option value="sql">Sql</option>
+            </select>
+            <br><br>
+    
+            <label for="mobile">Mobile No : </label>
+            <input type="tel" name="user-mobile" id="mobile">
+            <br><br>
+    
+            <label for="email">Email Id : </label>
+            <input type="email" name="user-email" id="email">
+            <br><br>
+    
+            <label for="resume">Choose File</label>
+            <input type="file" name="user-resume" id="resume">
+            <br><br>
+    
+            <label for="address">Address : </label>
+            <br>
+            <textarea name="user-address" id="address" cols="30" rows="10"></textarea>
+            <br><br>
+    
+            <input type="submit">
+            <input type="reset">
+    
+        </form>
+    </fieldset>
 </body>
 </html>
