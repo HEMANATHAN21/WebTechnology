@@ -8,17 +8,17 @@
 <body>
     <fieldset>
         <legend><h1>Student Details</h1></legend>
-        <form action="" method="">
+        <form action="#" method="get" autocomplete="on">
             <label for="fname">First Name : </label>
-            <input type="text" name="first-name" id="fname">
+            <input type="text" name="first-name" id="fname"  placeholder="Enter your first-name" autofocus required>
             <br><br>
     
             <label for="lname">Last Name : </label>
-            <input type="text" name="last-name" id="lname">
+            <input type="text" name="last-name" id="lname" value="hema" placeholder="Enter your last-name">
             <br><br>
     
             <label for="age">Age : </label>
-            <input type="number" name="user-age" id="age">
+            <input type="number" name="user-age" id="age" min="18" max="25" placeholder="Enter Your age">
             <br><br>
     
             <label for="gender">Gender : </label>
@@ -47,11 +47,11 @@
             <br><br>
     
             <label for="mobile">Mobile No : </label>
-            <input type="tel" name="user-mobile" id="mobile">
+            <input type="tel" name="user-mobile" id="mobile" pattern="[0-9][10]" placeholder="Enter Your mobile no">
             <br><br>
     
             <label for="email">Email Id : </label>
-            <input type="email" name="user-email" id="email">
+            <input type="email" name="user-email" id="email" placeholder="Enter Your email">
             <br><br>
     
             <label for="resume">Choose File</label>
@@ -60,7 +60,7 @@
     
             <label for="address">Address : </label>
             <br>
-            <textarea name="user-address" id="address" cols="30" rows="10"></textarea>
+            <textarea name="user-address" id="address" cols="30" rows="10" placeholder="Enter Your Address"></textarea>
             <br><br>
     
             <input type="submit">
