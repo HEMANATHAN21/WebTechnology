@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            text-transform: uppercase;
+        }
+        #main-cont-1{
+            border: 2px solid black;
+            display: flex;
+            height: 10vh;
+        }
+        #main-cont-2{
+            border: 2px solid black;
+            display: flex;
+            height: 50vh;
+        }
+        #nested-main-1{
+            border: 2px solid black;
+            display: flex;
+            height: 50vh;
+        }
+        #nested-main-2{
+            border: 2px solid black;
+            display: flex;
+            height: 50vh;
+        }
+        main > section{
+            border: 1px solid red;
+            text-align: justify;
+        }
+        #sec-left{
+            width: 50%;
+            background-color: blue;
+            text-align: center;
+        }
+        #sec-right{
+            width: 50%;
+            background-color: red;
+            text-align: center;
+        }
+        #left-side1{
+            width: 40%;
+        }
+        #right-side1{
+            width: 60%;
+        }
+        .nested-sec-1{
+            border: 1px solid black;
+            width: 50%;
+        }
+        .nested-sec-2{
+            border: 1px solid black;
+            width: 33.3%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Times Of India</h1>
+    </header>
+    <main id="main-cont-1">
+        <section id="sec-left">
+            <aside>
+                <p>
+                    Social Media Strategy Review
+                </p>
+            </aside>
+        </section>
+        <section id="sec-right">
+            <article>
+                <p>
+                    The Times Of India
+                </p>
+            </article>
+        </section>
+    </main>
+    <main id="main-cont-2">
+        <section id="left-side1">
+            <main id="nested-main-1">
+                <section class="nested-sec-1">
+                    <aside>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur maiores vel soluta ad possimus libero veniam! Aliquid, quae veniam error magnam nostrum quis quia voluptatem explicabo dignissimos repellat iste id sit earum. Saepe atque explicabo, at quas alias nemo quasi beatae neque delectus, aliquam repudiandae incidunt culpa dolorum. Molestias alias id nam voluptate illo veritatis vitae, quaerat mollitia voluptas aperiam quis corrupti exercitationem rem cumque commodi officiis voluptatibus fugit quas eaque quibusdam nobis minima. Illum dolor molestias reprehenderit. Nemo voluptate sequi aspernatur explicabo eos illum quo placeat dolores voluptatibus! Sint!</p>
+                    </aside>
+                </section>
+                <section class="nested-sec-1">
+                    <article>
+                        <h4>A 360 degree ana </h4>
+                    </article>
+                </section>
+            </main>
+        </section>
+        <section id="right-side1">
+            <main id="nested-main-2">
+                <section class="nested-sec-2">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </section>
+                <section class="nested-sec-2">
+                    <p>Image</p>
+                    <figure>
+                        <img src="../assets/Education.jpg" alt="" height="200" width="200">
+                        <figcaption></figcaption>
+                    </figure>
+                </section>
+                <section class="nested-sec-2">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </section>
+            </main>
+        </section>
+    </main>
+</body>
+</html>
