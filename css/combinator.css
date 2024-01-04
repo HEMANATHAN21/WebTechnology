@@ -1,0 +1,16 @@
+/* decendentselector */
+/* div p{
+    background-color: red;
+} */
+/* child selector */
+/* div > p{
+    background-color: red;
+} */
+/* adjucent sibling selector */
+/* div + p{
+    background-color: red;
+} */
+/* genera siblig selector */
+div ~ p{
+    background-color: red;
+}

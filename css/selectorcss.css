@@ -1,0 +1,16 @@
+*{
+    background-color: aquamarine ;
+    border: 1px solid black;   
+}
+#item4,#art,.span1{
+    background-color: rgb(91, 66, 237);
+}
+p{
+    background-color: red ;
+}
+#item{
+    background-color: blue;
+}
+.child{
+    background-color: greenyellow;
+}
