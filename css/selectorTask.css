@@ -1,0 +1,19 @@
+main{
+    border: 2px solid blue;
+    display: flex;
+}
+main > section{
+    border: 2px solid blue;
+}
+section{
+    width: 50%;
+}
+#header-1 p + p  ~ h3{
+    background-color: blueviolet;
+} 
+#div-1 > .main-content > #section-1 aside > p + p{
+    background-color: brown;
+}
+#div-1 > .main-content > section + section > article {
+    background-color: aqua;
+}

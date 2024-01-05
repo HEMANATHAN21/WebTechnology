@@ -1,0 +1,36 @@
+img{
+    height: 300px;
+    width: 200px;
+}
+
+/* img[alt]{
+    border: 5px solid blue;
+} */
+
+/* img[alt="rose"]{
+    border: 5px solid palevioletred;
+} */
+
+/* it will check for prefix word */
+/* img[alt^="bud"]{
+    border: 5px solid palevioletred;
+} */
+
+/* it will check for suffix word */
+/* img[alt$="button"]{
+    border: 5px solid palevioletred;
+} */
+
+/* it will check for - */
+/* img[alt|="bud"]{
+    border: 5px solid palevioletred;
+} */
+
+/* it will check for empty space */
+/* img[alt~="bud"]{
+    border: 5px solid palevioletred;
+} */
+
+img[alt*="rose"]{
+    border: 5px solid palevioletred;
+}
