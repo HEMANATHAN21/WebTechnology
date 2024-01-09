@@ -1,0 +1,23 @@
+/* input:enabled{
+    background-color: aqua;
+}
+
+input:disabled{
+    background-color: yellow;
+}
+
+input:focus{
+    background-color: blueviolet;
+} */
+
+/* input:read-only{
+    background-color: brown;
+} */
+
+/* input:read-write{
+    background-color: chocolate;
+} */
+
+input:required{
+    background-color: crimson;
+}
