@@ -1,0 +1,13 @@
+#maindiv{
+    border: 15px dashed black;
+    height: 100vh;
+    background-size: 100%;
+    background-image: url("../assets/software-developer-6521720_1280.jpg");
+    /* background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed; */
+    background-clip: content-box;
+    padding: 100px;
+    color: white;
+    
+}

@@ -1,0 +1,25 @@
+#div-content-1{
+    border: 1px solid black;
+    height: 80px;
+    line-height: 70px;
+    word-spacing: 200px;
+    text-align: center;
+    background-color: aqua;
+}
+#div-content-2{
+    height: 100vh;
+    width: 100vw;
+}
+a{
+    text-decoration: none;
+}
+p{
+    color: brown;
+    word-spacing: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: yellow;
+}
