@@ -1,0 +1,25 @@
+
+#div-cont1{
+    border: 1px solid black;
+    height: 70px;
+    text-align: center;
+    background-color: aqua;
+}
+#div-cont2{
+    border: 1px solid black;
+    height: 100vh;
+    
+}
+#div-cont2{
+    text-align: center;
+    
+}
+#inner-div{
+    border: 1px solid black;
+    margin-left: 45px;
+    margin-top: 70px;
+    height: 60vh;
+    width: 90vw;
+    overflow: scroll;
+    
+}

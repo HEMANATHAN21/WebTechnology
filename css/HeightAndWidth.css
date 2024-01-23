@@ -1,0 +1,27 @@
+p{
+    border: 1px solid black;
+    /* min-height: 100px; it will grow along with content */
+    /* height: 100px; it is fixed doesnt grow along with content */
+    /* max-height: 200px; */
+    height: 100px;
+    overflow: scroll;
+}
+
+/* #span-1{
+    border: 1px solid black;
+    display: inline-block;
+    width: 250px;
+} */
+main{
+    border: 1px solid black;
+    height: 150px;
+    background-color: aqua;
+}
+section{
+    border: 1px solid black;
+    width: 428px;
+    height: 100px;
+    background-color: yellow;
+    margin-top: 25px;
+    display: inline-block;
+}
