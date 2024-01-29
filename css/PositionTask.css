@@ -1,0 +1,22 @@
+#parent{
+    border: 2px solid black;
+    background-image: url("../image/mountains-5289671_1280.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#child1{
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+#child2{
+    text-align: center;
+    position: relative;
+    top: 100px;
+
+}
