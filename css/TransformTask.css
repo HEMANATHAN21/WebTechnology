@@ -1,0 +1,27 @@
+#main-div{
+    border: 2px solid black;
+    height: 100vh;
+    background-color: blanchedalmond;
+}
+
+#content-1{
+    border: 2px solid black;
+    border-radius: 20px;
+    position: absolute;
+    height: 550px;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 100px;
+    background-image: u;
+    
+}
+
+#content-2{
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 550px;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 750px;
+    /* position: absolute; */
+}

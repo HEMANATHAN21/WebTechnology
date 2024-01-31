@@ -1,0 +1,32 @@
+#parent-element{
+    border: 1px solid black;
+    background-color: aqua;
+}
+.navmodules{
+    border: 1px solid black;
+    display: inline-block;
+    width: 251.5px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+#home-content,#gallery-content{
+    border: 1px solid black;
+    height: 100vh;
+}
+#register{
+    position: relative;
+}
+#register-popup{
+    position: absolute;
+    left: 0px;
+    width: 251.5px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: aqua;
+    display: none;
+    
+}
+#anchor1:hover + #register-popup{
+    display: block;
+}
