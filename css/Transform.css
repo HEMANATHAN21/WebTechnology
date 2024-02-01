@@ -36,21 +36,15 @@ button:hover{
 }
 
 #cir1{
-    border: 1px solid black;
-    background-color: burlywood;
-    height: 150px;
-    width: 150px;
-    border-radius: 80px;
-    
-}
-
-#cir2{
-    border: 1px solid black;
+    border: 20px solid black;
+    border-radius: 100px;
     border-top-color: blue;
-    background-color: white;
     height: 100px;
     width: 100px;
-    border-radius: 50px;
-    margin-top: 25px;
-    margin-left: 25px;
+    padding: 10px;
+    transition: 2s;    
+}
+#cir1:hover{
+    transform: rotate(360deg);
+    background-color: aqua;
 }

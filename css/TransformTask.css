@@ -8,20 +8,58 @@
     border: 2px solid black;
     border-radius: 20px;
     position: absolute;
-    height: 550px;
+    height: 500px;
     width: 400px;
-    margin-top: 30px;
-    margin-left: 100px;
-    background-image: u;
+    margin-top: 50px;
+    margin-left: 140px;
+    background-image: url("https://media.istockphoto.com/id/174455805/photo/dslr-camera-with-mounted-50mm-f1-4-lens-on-white-background.jpg?s=1024x1024&w=is&k=20&c=GYBgpqPJMdAkfY91SAQUz2cDxcsTNqPRnPPpbETclNo=") ;
+    background-repeat: no-repeat;
+    background-size: 400px 250px;
+    transition: 3s;
     
 }
 
 #content-2{
     border: 2px solid black;
     border-radius: 20px;
-    height: 550px;
+    height: 500px;
     width: 400px;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 750px;
+    background-image: url("../image/background.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 400px 250px;
+    transition: 3s;
     /* position: absolute; */
+}
+#innerdiv-1,#innerdiv-2{
+    margin-top: 250px;
+}
+.btn{
+    text-align: center;
+    margin-top: 30px;
+}
+button{
+    height: 40px;
+    width: 170px;
+    background-color: aqua;
+    color: white;
+    font-size: larger;
+    border: none;
+}
+button:hover {
+    transform: scale(1.1,1.1); 
+}
+.para-common{
+    margin-left: 10px;
+    line-height: 25px;
+}
+#content-1:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 12px 12px 15px rgb(65, 55, 55);
+}
+
+#content-2:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 12px 12px 15px rgb(65, 55, 55);
 }
