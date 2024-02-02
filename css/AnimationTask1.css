@@ -1,0 +1,21 @@
+button:hover + #parent1 > #para1{
+    animation-name: paragraph;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+
+button:hover + #parent1 > #para2{
+    animation-name: paragraph;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+
+@keyframes paragraph {
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 50px;
+    }
+    
+}
