@@ -1,0 +1,12 @@
+#main-content{
+    height: 100vh;
+}
+video{
+    position: absolute;
+}
+h1{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

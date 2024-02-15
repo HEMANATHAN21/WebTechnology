@@ -1,0 +1,301 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    display: flex;
+    gap: 2px;
+}
+#div2{
+    /* border: 1px solid black; */
+    height: 100vh;
+    background-image: url("https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+}
+#myTunes{
+   text-align: center;
+   font-family: sans-serif;
+   font-size: 60px;
+   padding-top: 152px;
+}
+#myTunes-head{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: xx-large;
+    padding-top: 55px;
+}
+#div2para{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: larger;
+    padding: 80px;
+    padding-top: 30px;
+    line-height: 35px;
+}
+#div1{
+    /* border: 1px solid black; */
+    display: flex;
+    background-color: rgb(51,51,51);
+    /* height: 30px; */
+    position: sticky;
+    top: 0px;
+}
+#content{
+    text-decoration: none;
+    /* border: 1px solid black; */
+    padding: 10px;
+    text-align: center;
+    width: 80px;
+    font-family: sans-serif;
+    font-size: medium;
+    color: rgb(226,238,238);
+}
+#content:hover{
+   background-color: #434141;
+    transform: scaleY(1.3);
+    font-optical-sizing: none;
+}
+
+/* #music2{
+    font-family: sans-serif;
+    padding: 30px;
+    font-size: 42px;
+    padding-top: 50px; 
+
+} */
+
+#div3{
+    background-color: rgb(37,37,41);
+    color: white;
+    height: 190vh;
+   background-image: url("https://jolly-kalam-23776e.netlify.app/mytunes/img/mockup1.png");
+   background-repeat: no-repeat;
+   background-size: 88%;
+   background-position: center bottom;
+   background-position-y: 500px;
+   text-align: center;
+
+
+}
+#music{
+    font-family: sans-serif;
+    padding: 30px;
+    font-size: 42px;
+    padding-top: 50px;   
+    text-align: center;
+}
+#zero{
+    font-family: sans-serif;
+    font-size: 35px;
+    padding-top: 18px; 
+    text-align: center;
+}
+#div3para{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 45px 80px;
+    padding-top: 45px;
+    line-height: 34px;
+}
+#btn{
+    border: none;
+    width: 170px;
+    height: 60px;
+    background-color: rgb(185,4,21);
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+     /* padding: 18px; */
+    /* text-align: center; */
+    /* text-decoration: none;
+    padding-right: 20px; */
+}
+#btn:hover{
+    background-color: rgb(226, 6, 28);
+}
+#div3para2{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 80px;
+    padding-top: 20px;
+    line-height: 34px;
+}
+#div4{
+    /* border: 1px solid black; */
+    height: 200vh;
+    background-image: url("https://jolly-kalam-23776e.netlify.app/mytunes/img/mockup2.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    text-align: center;
+    background-position-y: 330px;
+    /* display: flex;
+    flex-direction: column;  */
+
+}
+#div4-h2{
+    text-align: center;
+    font-size: 32px;
+    font-family: sans-serif;
+    padding-top: 55px;
+}
+#div4para1{
+    text-align: center;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: sans-serif;
+    padding: 35px 70px;
+    padding-bottom: 22px;
+
+}
+#div4-btn{
+    width: 135px;
+    border: none;
+    padding: 18px;
+    background-color: rgb(16,48,99);
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    /* position: relative;
+    left: 10%; */
+    /* left: 46%;
+    top: -30px;
+    left: 50px; */
+}
+
+#div5{
+    height: 85vh;
+    /* border: 1px solid black; */
+    background-image: url("https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg");
+    background-position-y: 100%;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    background-color: rgb(244,244,244);
+    
+}
+#div5-h2{
+    text-align: center;
+    font-size: 32px;
+    font-family: sans-serif;
+}
+
+#div5para1{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 80px;
+    padding-top: 40px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+#div6{
+    /* border: 1px solid black; */
+    height: 70vh;
+    display: flex;
+    font-family: sans-serif;
+    background-color: rgb(244,244,244);
+    
+}
+
+#div6img{
+    /* border: 1px solid black; */
+    width: 50%;
+    background-image: url("https://jolly-kalam-23776e.netlify.app/mytunes/img/cards.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 590px;
+    background-position-x: 80px;
+
+}
+#div6con{
+    /* border: 1px solid black; */
+    width: 50%;
+}
+#div6-h2{
+    font-family: sans-serif;
+    padding: 15px;
+    padding-top: 50px;
+}
+#div6para1{
+    padding: 20px;
+    padding-top: 9px;
+    padding-right: 50px;
+    line-height: 30px;
+}
+#div6para2{
+    padding-left: 20px;
+    padding-right: 50px;
+    line-height: 30px;
+    font-size: 16px;
+}
+#dummy{
+    border: 0.5px solid rgb(145, 143, 143);
+    position: relative;
+    left: 20px;
+    width: 600px;
+    
+}
+#reedem{
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(16, 48, 99);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 200px;
+}
+#div7{
+    /* border: 1px solid black; */
+    height: 260px;
+    background-color: rgb(37,37,41);
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-family: sans-serif;
+}
+
+.div7items{
+    /* border: 1px solid rgb(255, 255, 255); */
+    width: 250px;
+    color: white;
+    font-size: 19px;
+    padding-left: 10px; 
+    padding-top: 50px;
+    
+}
+.align{
+    border: 0.5px solid grey;
+    width: 230px;
+}
+.a2{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+li{
+    line-height: 25px;
+    font-size: small;
+}
+
+#div8{
+    /* border: 1px solid black; */
+    height: 55px;
+    background-color: rgb(51,51,51);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 15.5px; 
+}

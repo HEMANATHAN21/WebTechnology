@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navigation_gp{
+    /* border: 1px solid rgb(76, 0, 255); */
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+#navigation_p{
+    /* border: 1px solid rgb(0, 250, 0); */
+    display: flex;
+    width: 98%;
+}
+.child_modules{
+    /* border: 1px solid red; */
+}
+#left_modules{
+    width: 70%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#right_modules{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+.module-items{
+    /* border: 1px solid yellow; */
+    width: 120px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    /* border-radius: 10px; */
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+#left_modules>.module-items:hover{
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+#right_modules>button:hover{
+    transition: 1s;
+    transform: scale(1.1,1.1);
+}
+#home-content{
+    border: 1px solid black;
+    background-image: url("../image/puppies-7331739_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.5;
+    height: 100vh;
+}
