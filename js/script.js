@@ -93,3 +93,67 @@ console.log(isNaN("3a"))//if it is notanumber(Nan) give true or else give false
 console.log(5-true)//output is 4 and type is number(implicit type)
 
 //Browser Objet Model(BOM)
+//explicit type coersion
+console.log(window.console.log)
+
+//simple alert//if you want alert something and dont want to return anything.it dont have return type
+// let a3 = alert("item successfully added")
+// console.log(a3)//undefined
+
+//confirm alert//return type is boolean
+// let a3 = confirm("Please turn on the location")
+// console.log(a3)
+// let a3 = false;
+// while(a3 == false)
+// {
+//     a3 = confirm("Click Ok ")
+//     if(a3 == true)
+//     {
+//         window.location = "https://pixabay.com/"
+//     }
+// }
+//or
+// let temp = true
+// while(temp)
+// {
+//     let ch = confirm("Click Ok")
+//     if(ch)
+//     {
+//         window.location = "https://pixabay.com/"
+//         temp == false
+//     }
+//     else
+//     {
+//         temp == true
+//     }
+// }
+
+//prompt
+
+// let p = prompt("Enter Your Name ");
+// console.log(p);
+// console.log(typeof p)
+
+// let p1 = Number(prompt("Enter Your Age "));
+// console.log(p1);
+// console.log(typeof p1);
+
+let n1 = Boolean("");
+console.log(n1);
+console.log(typeof n1);
+
+let n2 = Boolean(0);
+console.log(n2);
+console.log(typeof n2);
+
+let n3 = Boolean(null);
+console.log(n3);
+console.log(typeof n3);
+
+let n4 = Boolean(undefined);
+console.log(n4);
+console.log(typeof n4);
+
+let n5 = Boolean(false);
+console.log(n5);
+console.log(typeof n5);
