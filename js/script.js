@@ -286,9 +286,31 @@
 
 
 // console.log("start")
-// add(10,20);
+// // add(10,20);
 // let add = function sum(a1,b1){
 //     console.log(a1+b1)
 // }
 // add(20,20);
 // console.log("end")
+
+//arrow function : shortern property of fn
+//implicit return : when we have single line of statement javascript engine itself give return 
+// console.log('start');
+// let exp = (a1 , b1) => a1 + b1;
+// console.log(exp(10,20));
+// console.log('end');
+
+// console.log('start');
+// let exp = a1 => a1 + 10;
+// console.log(exp(10));
+// console.log('end');
+
+// explicit return
+let getname = (fname,lname) =>
+{
+    return (fname +" "+lname);
+}
+console.log(getname('solo','hema'))
+
+
+
